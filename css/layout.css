@@ -1,0 +1,622 @@
+/* CSS Document */
+
+/*-----index start-----*/
+.carousel-bg {
+	height: 650px;
+	width: 100%;
+	position: relative;
+}
+#slider {
+	position: absolute !important;
+	z-index: -1000;
+}
+slider ul, #slider li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.carousel-bg > header {
+	background: url(../images/head-bg_89x89.png) repeat-x;
+	position: absolute;
+	top: 0;
+}
+.carousel-bg > .corporate-slogan {
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 100px auto;
+	height: 690px;
+	position: absolute;
+	top: 0;
+}
+.corporate-slogan h1 {
+	font-size: 75px;
+	color: #fff;
+	margin-bottom: 50px;
+	font-family: "华文行楷";
+	font-weight: normal;
+}
+.corporate-slogan h2 {
+	font-size: 32px;
+	margin-bottom: 100px;
+	font-family:;
+}
+.corporate-slogan > a {
+	display: block;
+	width: 240px;
+	height: 70px;
+	background-color: #f63c3d;
+	border-radius: 5px;
+	margin: 0 auto;
+	line-height: 70px;
+	color: #fff;
+	font-size: 25px;
+}
+.corporate-slogan > ul {
+	margin: 170px auto 0 auto;
+	height: 20px;
+	width: 100px;
+}
+.corporate-slogan > ul > li {
+	float: left;
+}
+.corporate-slogan > ul > li > a > i {
+	list-style: none;
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: #f63c3d;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+.corporate-slogan > ul > li > a > .carousel-select {
+	width: 30px !important;
+	border-radius: 10px !important;
+}
+.service-items {
+	width: 100%;
+	height: 700px;
+	background-color: #31282b;
+	padding-top: 130px;
+	text-align: center;
+}
+.service-items > .center > .service-items-content {
+	width: 1200px;
+	margin: 0 auto;
+	height: 500px;
+}
+.service-items > .center > h1 {
+	font-size: 36px;
+	color: #fff;
+}
+.service-items > .center > h2 {
+	font-size: 26px;
+	color: #fff;
+	margin-bottom: 110px;
+}
+.service-items > .center h3 {
+	font-size: 30px;
+	line-height: 80px;
+}
+.service-items > .center p {
+	color: #333333;
+	font-size: 24px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.service-items > .center > .wulian-bg {
+	background: url(../images/wulian-bg_339x273.png);
+	width: 339px;
+	height: 273px;
+	float: left;
+	margin-right: 55px;
+}
+.service-items > .center > .station-bg {
+	background: url(../images/station-bg_351x302.png);
+	width: 351px;
+	height: 302px;
+	float: left;
+	margin-right: 55px;
+}
+.service-items > .center > .development-bg {
+	background: url(../images/development-bg_361x297.png);
+	width: 361px;
+	height: 293px;
+	float: left;
+}
+.wulian-bg > .wulian-summary, .station-bg > .station-summary, .development-bg > .development-summary {
+	height: 175px;
+	width: 200px;
+	margin: 0 auto;
+}
+.station-bg > .station-summary {
+	margin-top: 80px;
+}
+.development-bg > .development-summary {
+	margin-top: 30px;
+}
+.our-advantage {
+	color: #fff;
+	width: 100%;
+	height: 750px;
+	background-color: #f63c3d;
+	text-align: center;
+	padding-top: 120px;
+}
+.our-advantage > h1 {
+	font-size: 36px;
+}
+.our-advantage > h2 {
+	font-size: 26px;
+	margin-bottom: 110px;
+}
+.our-advantage p {
+	margin-top: 15px;
+	font-size: 26px;
+}
+.our-advantage small {
+	font-size: 19px;
+}
+.our-advantage img {
+	width: 99.5%;
+}
+.our-advantage > .advantage-one, .our-advantage > .advantage-two, .our-advantage > .advantage-three, .our-advantage > .advantage-four {
+	float: left;
+	width: 25%;
+}
+.advantage-survey {
+	width: 100%;
+	height: 2650px;
+	background-color: #fff;
+	position: relative;
+	font-family: "新宋体";
+}
+.advantage-survey h2 {
+	font-size: 28px;
+}
+.advantage-survey p {
+	font-size: 22px;
+	color: #333;
+}
+.advantage-survey > .center > .professional-summary {
+	float: left;
+	background: url(../images/superiority-information-1_654x514.png) no-repeat;
+	background-position: 0 60px;
+	width: 100%;
+	height: 640px;
+}
+.advantage-survey > .center > .innovate-summary {
+	float: left;
+	background: url(../images/superiority-information-2_955x403.png) no-repeat;
+	background-position: 239px 120px;
+	width: 100%;
+	height: 640px;
+}
+.advantage-survey > .center > .experience-summary {
+	float: left;
+	background: url(../images/superiority-information-3_1024x435.png) no-repeat;
+	background-position: 0px 60px;
+	width: 100%;
+	height: 640px;
+}
+.advantage-survey > .center > .details-summary {
+	float: left;
+	background: url(../images/superiority-information-4_952x523.png) no-repeat;
+	background-position: 239px 120px;
+	width: 100%;
+	height: 640px;
+}
+.professional-summary > h2, .experience-summary > h2 {
+	text-align: right;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.professional-summary > p, .experience-summary > p {
+	width: 760px;
+	float: right;
+}
+.innovate-summary h2, .details-summary h2 {
+	margin-top: 220px;
+	margin-bottom: 40px;
+}
+.innovate-summary p, .details-summary p {
+	width: 730px;
+}
+
+/*-----index end-----*/
+
+/*-----product-wulian start-----*/
+.wulian-introduce {
+	width: 100%;
+	height: 1760px;
+	padding-top: 70px;
+}
+.wulian-introduce > .center > .wulian-product {
+	width: 906px;
+	height: 100%;
+	float: right;
+}
+.wulian-product .product-image {
+	float: left;
+	width: 476px;
+	height: 400px;
+	margin-right: 40px;
+	text-align: center;
+	font-family: "华文行楷";
+	font-size: 18px;
+}
+.wulian-product .product-image > img {
+	margin-bottom: 20px;
+}
+.wulian-product .product-introduction {
+	width: 290px;
+	height: 400px;
+	float: left;
+}
+.wulian-product .product-introduction > h2 {
+	color: #333;
+	font-size: 22px;
+	margin-bottom: 30px;
+	font-family: "微软雅黑";
+}
+.wulian-product .product-introduction > p {
+	color: #333;
+	font-size: 14px;
+	font-family: "新宋体";
+	margin-bottom: 10px;
+	line-height: 22px;
+	font-weight: 600;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.wulian-product > .streetlight, .wulian-product > .rolling-shutte-door, .wulian-product > .tunnel-early-warning {
+	background: url(../images/product-introduce-bg_906x516.png) no-repeat;
+	height: 336px;
+	width: 826px;
+	padding: 90px 40px;
+	margin-bottom: 70px;
+}
+
+/*-----product-wulian end-----*/
+
+/*-----product-station start-----*/
+.station-introduce {
+	padding-top: 70px;
+	height: 860px;
+	width: 100%;
+}
+.station-introduce > .center > .station-service {
+	width: 906px;
+	height: 770px;
+	float: right;
+	text-align: center;
+	margin-top: 60px;
+}
+.station-service > .station-image {
+	width: 100%;
+	height: 400px;
+}
+.station-service > .station-image > p {
+	font-size: 30px;
+	color: #110305;
+	font-family: "楷体";
+	margin-top: 15px;
+}
+.station-service > .station-introduction {
+	color: #333;
+	width: 530px;
+	height: 350px;
+	margin: 0 auto;
+}
+.station-service > .station-introduction > h2 {
+	font-family: "微软雅黑";
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.station-service > .station-introduction > p {
+	font-family: "新宋体";
+	font-size: 22px;
+	line-height: 35px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.classic-cases {
+	width: 1144px;
+	height: 680px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 120px;
+}
+.classic-cases h1 {
+	font-size: 46px;
+}
+.classic-cases h2 {
+	margin-bottom: 50px;
+	font-size: 32px;
+}
+.case-one, .case-two, .case-three, .case-four {
+	width: 482px;
+	height: 194px;
+	float: left;
+}
+.case-one, .case-three {
+	margin-right: 180px;
+}
+.case-two, .case-two {
+	margin-bottom: 80px;
+}
+
+/*-----product-station end-----*/
+
+/*-----product-development start-----*/
+.development-introduce {
+	width: 100%;
+	height: 860px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 70px;
+}
+.development-introduce > .center > .development-content {
+	float: right;
+	width: 895px;
+	height: 800px;
+	color: #333;
+	margin-top: 60px;
+}
+.development-content > span {
+	font-family: "微软雅黑";
+	font-size: 26px;
+	margin-bottom: 60px;
+}
+.development-content > img {
+	width: 895px;
+	height: 299px;
+	margin: 60px 0;
+}
+.development-content > p {
+	font-family: "新宋体";
+	font-size: 22px;
+	line-height: 30px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+/*-----product-development end-----*/
+
+/*-----profile start-----*/
+.product {
+	background: url(../images/profile-bg_75x73.png);
+	width: 100%;
+	height: 930px;
+}
+.product > .center > .product-join {
+	position: absolute;
+	background: url(../images/letter_435x259.png) no-repeat;
+	width: 436px;
+	height: 258px;
+}
+.product > .center > .product-introduce {
+	background-color: #f1f2f2;
+	background-image: url(../images/profile-content-bg_404x387.png);
+	background-repeat: no-repeat;
+	background-position: 630px 300px;
+	width: 1172px;
+	height: 650px;
+	margin-left: 12px;
+	padding-top: 150px;
+}
+.product-introduce > .product-content {
+	width: 886px;
+	height: 640px;
+	margin-left: 150px;
+}
+.product-content > h1 {
+	margin-bottom: 30px;
+	font-family: "华文行楷";
+	font-size: 48px;
+	text-align: center;
+}
+.product-content > p {
+	font-family: "新宋体";
+	font-size: 20px;
+	color: #282828;
+	line-height: 35px;
+	text-indent: 2em;
+}
+.product > .center > .product-image-one, .product > .center > .product-image-two, .product > .center > .product-image-three, .product > .center > .product-image-four {
+	width: 292.8px;
+	height: 130px;
+	float: left;
+}
+.product > .center .product-image-mask {
+	width: 292.8px;
+	height: 130px;
+	background: url(../images/profile-bg_114x114.png);
+}
+.product-image-one {
+	margin-left: 14px;
+	background: url(../images/advantage-1_480x241.png) no-repeat;
+}
+.product-image-two {
+	background: url(../images/advantage-2_480x241.png) no-repeat;
+}
+.product-image-three {
+	background: url(../images/advantage-3_480x241.png) no-repeat;
+}
+.product-image-four {
+	background: url(../images/advantage-4_480x241.png) no-repeat;
+}
+
+/*-----profile end-----*/
+
+/*------contact start-----*/
+.contact {
+	width: 100%;
+	height: 610px;
+	background-color: #f63c3d;
+	padding-top: 80px;
+}
+.contact > .center > .contact-way {
+	width: 500px;
+	height: 610px;
+	float: left;
+	color: #fff;
+}
+.contact-way > h2 {
+	font-family: "微软雅黑";
+	font-size: 32px;
+	font-weight: normal;
+	margin-top: 55px;
+	margin-bottom: 50px;
+}
+.contact-way > p {
+	font-family: "Adobe 黑体 Std R";
+	font-size: 22px;
+	width: 400px;
+	margin-bottom: 30px;
+	line-height: 40px;
+}
+.contact-way > p > strong {
+	font-size: 24px;
+}
+.contact > .center > .contact-map {
+
+	width: 670px;
+	height: 380px;
+	float: right;
+	margin-top: 70px;
+}
+.views {
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 980px;
+	padding-top: 115px;
+	font-family: "新宋体";
+	color: #333333;
+}
+.views > .center > h2 {
+	font-size: 32px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	text-align: center;
+}
+.views > .center > p {
+	font-size: 22px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	font-weight: 600;
+	text-align: center;
+}
+.views input {
+	width: 270px;
+	height: 55px;
+	border: 2px solid #cccccc;
+	font-size: 18px;
+	font-family: "新宋体";
+	text-indent: 10px;
+}
+.views > .center form > .name, .views > .center form > .phone, .views > .center form > .mailboxe, .views > .center form > .service-item {
+	width: 275px;
+	height: 85px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 600;
+	float: left;
+	margin-bottom: 40px;
+}
+.views > .center form > .name, .views > .center form > .phone, .views > .center form > .mailboxe {
+	margin-right: 30px;
+}
+.input-icon {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: #f63c3d;
+	float: left;
+	margin: 6px;
+}
+.select {
+	position: relative;
+}
+.select dt {
+	height: 28px;
+	border: 2px solid #ccc;
+	line-height: 55px;
+	padding-left: 10px;
+	cursor: pointer;
+	width: 270px;
+	overflow: hidden;
+	z-index: 99;
+	height: 55px;
+	background-color: #fff;
+	font-family: "新宋体";
+	font-size: 18px;
+	color: #333;
+	font-weight: normal;
+}
+.select dd {
+	position: absolute;
+	top: 60px;
+	border: 1px solid #ccc;
+	background: #fff;
+	display: none;
+}
+.select dd ul {
+	padding: 4px;
+	width: 274px;
+	max-height: 250px;
+	overflow: auto;
+}
+.select dd ul li a {
+	line-height: 28px;
+	display: block;
+	padding: 0 8px;
+	font-family: "新宋体";
+	font-size: 18px;
+	color: #333;
+	font-weight: normal;
+}
+.select dd ul li a:hover {
+	background: #f5f5f5;
+}
+.drop-icon {
+	background: url(../images/drop-icon_30x18.png);
+	width: 30px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	top: 23px;
+	right: 0;
+}
+.views > .center form > .you-views {
+	margin-top: 35px;
+	width: 1200px;
+	height: 480px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 40px;
+	clear: both;
+}
+.you-views > textarea {
+	width: 1195px;
+	height: 445px;
+	border: 2px solid #cccccc;
+	font-size: 18px;
+	font-family: "新宋体";
+	text-indent: 10px;
+	resize: none;
+}
+.views > .center form > button {
+	width: 225px;
+	height: 70px;
+	background-color: #f63c3d;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 32px;
+	cursor: pointer;
+}
+
+/*------contact end-----*/

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* CSS Document */
+@media (max-width:1216px) {
+	.carousel-bg {
+		width: 1200px !important;
+	}
+	.service-items {
+		width: 1200px !important;
+	}
+	footer {
+		width: 1200px !important;
+	}
+	header {
+		width: 1200px !important;
+	}
+	.contact {
+		width: 1200px !important;
+	}
+	.views {
+		width: 1200px !important;
+	}
+	.our-advantage{
+		width: 1200px !important;
+	}
+	.site-footer{
+		width: 1200px !important;
+	}
+	.product{
+		width: 1200px !important;
+		}
+}

@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZEvH9xEm0PR2GDs8U4uOSofq"></script>
+		<title>厦门市易致达物联网科技有限公司官网</title>
+</head>
+
+<body>
+	<header>
+		<div class="center">
+			<a href="index.html"> <i class="logo"></i>
+				易致达
+			</a>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="product.html">产品服务</a>
+					</li>
+					<li>
+						<a href="profile.html">公司简介</a>
+					</li>
+					<li class="nav-select">
+						<a href="contact.html">联系我们</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="contact">
+		<div class="center">
+			<div class="contact-way">
+				<h2>易致达物联网科技有限公司</h2>
+				<p> <strong>地址：</strong>
+					福建省厦门市湖里区高林中路 &nbsp;&nbsp;&nbsp;&nbsp;万达写字楼C3#701
+				</p>
+				<p> <strong>电话：</strong>
+					+8618577869881
+				</p>
+				<p>
+					<strong>邮箱：</strong>
+					semtouch@gmail.com
+				</p>
+			</div>
+
+			<div class="contact-map"  id="allmap"></div>
+		</div>
+	</div>
+	<div class="views">
+		<div class="center">
+			<h2>您的意见就是我们的动力</h2>
+			<p>如果您有宝贵的建议和意见，以及商务洽谈，请联系我们，或者使用以下方式提供您的宝贵意见。</p>
+			<form>
+				<div class="name">
+					<label>
+						<span class="input-icon"></span>
+						您的姓名
+					</label>
+					<input type="text" />
+				</div>
+				<div class="phone">
+					<label>
+						<span class="input-icon"></span>
+						您的电话
+					</label>
+					<input type="number" />
+				</div>
+				<div class="mailboxe">
+					<label>
+						<span class="input-icon"></span>
+						您的邮箱
+					</label>
+					<input type="email" />
+				</div>
+				<div class="service-item">
+					<label>
+						<span class="input-icon"></span>
+						服务项目
+					</label>
+					<dl class="select">
+						<dt>建议与意见</dt>
+						<i class="drop-icon"></i>
+						<dd>
+							<ul>
+								<li>
+									<a href="javascript:;">建议与意见</a>
+								</li>
+								<li>
+									<a href="javascript:;">商务洽谈</a>
+								</li>
+								<li>
+									<a href="javascript:;">其他服务</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="you-views">
+					<label>
+						<span class="input-icon"></span>
+						您的意见
+					</label>
+					<textarea></textarea>
+				</div>
+				<button type="button">提交</button>
+			</form>
+		</div>
+	</div>
+	<div class="site-footer">
+		<div class="center">
+			<div class="footer-logo">
+				<div class="logo-position"> <i class="logo-two"></i>
+					<span>易致达</span>
+				</div>
+			</div>
+			<div class="footer-services">
+				<h4>产品服务</h4>
+				<ol>
+					<li>
+						<a href="product.html">智慧物联</a>
+					</li>
+					<li>
+						<a href="station.html">快速建站</a>
+					</li>
+					<li>
+						<a href="development.html">产品研发</a>
+					</li>
+				</ol>
+			</div>
+			<div class="contact-us">
+					<h4>联系我们</h4>
+					
+					<p>
+						<span>电话：</span>
+						+8618577869881
+					</p>
+					<p>
+						<span>邮箱：</span>
+						semtouch@gmail.com
+					</p>
+					<p><span class="contact-us-title">地址：</span>
+					福建省厦门市湖里区高林中路万达写字楼C3#701
+					</p>
+			</div>
+			<div class="focuses-us">
+				<h4>关注我们</h4>
+				<ul>
+					<li>
+						<a href="javascript:;">
+							<i class="socialicon-weixin-xs"></i>
+							微信
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<i class="socialicon-weibo-xs"></i>
+							微博
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; 2015 All rights reserved. 厦门市易致达物联网科技有限公司</p>
+	</footer>
+	<div class="jump-top">
+		<a href="javascript:;"></a>
+	</div>
+	<script>
+		$(function(){
+			$(".select").each(function(){
+				var s=$(this);
+				var z=parseInt(s.css("z-index"));
+				var dt=$(this).children("dt");
+				var dd=$(this).children("dd");
+				var _show=function(){dd.slideDown(200);dt.addClass("cur");s.css("z-index",z+1);};   //展开效果
+				var _hide=function(){dd.slideUp(200);dt.removeClass("cur");s.css("z-index",z);};    //关闭效果
+				dt.click(function(){dd.is(":hidden")?_show():_hide();});
+				dd.find("a").click(function(){dt.html($(this).html());_hide();});     //选择效果（如需要传值，可自定义参数，在此处返回对应的“value”值 ）
+				$("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hide():"";});
+			})
+			//回到顶部
+			$(window).scroll(function(){
+				var sroll = $(window).scrollTop()
+				if(sroll > 300){ 
+					$(".jump-top").css("visibility","visible");
+				}
+				else{
+					$(".jump-top").css("visibility","hidden");
+					}
+				});
+				$(".jump-top a").click(function(){
+					$('html, body').animate({scrollTop:0}, '1500');
+					});
+			// 百度地图API功能
+			var map = new BMap.Map("allmap");
+			map.centerAndZoom(new BMap.Point(118.184289,24.50899),50);
+			map.enableScrollWheelZoom(true);
+			// 用经纬度设置地图中心点
+					map.clearOverlays(); 
+					var new_point = new BMap.Point(118.184289,24.50899);
+					var marker = new BMap.Marker(new_point);  // 创建标注
+					map.addOverlay(marker);              // 将标注添加到地图中
+					map.panTo(new_point);
+			})
+	</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*----- flexslider start-----*/
+.flexslider {
+	height: 986px;
+	overflow: hidden;
+	z-index: -1000;
+}
+.slides {
+	position: relative;
+	z-index: -1000;
+}
+.slides li {
+	height: 986px;
+}
+.flex-control-nav {
+	position: absolute;
+	bottom: 50px;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+.flex-control-nav li {
+	display: inline-block;
+	height: 10px;
+	margin: 0 5px;
+	*display: inline;
+	zoom: 1;
+}
+.flex-control-nav a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	line-height: 40px;
+	overflow: hidden;
+	background-color: #f63c3d;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.flex-control-nav .flex-active {
+	width: 30px !important;
+	border-radius: 10px !important;
+}
+
+/*----- flexslider end-----*/
